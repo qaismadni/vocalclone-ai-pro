@@ -53,12 +53,11 @@ export default function App() {
   const [editorMode, setEditorMode] = useState<'simple' | 'film'>('simple');
   
   // API Settings State
-  const [apiSettings, setApiSettings] = useState({
+    const [apiSettings, setApiSettings] = useState({
     falKey: import.meta.env.VITE_FAL_KEY || '',
     supabaseUrl: import.meta.env.VITE_SUPABASE_URL || '',
     supabaseKey: import.meta.env.VITE_SUPABASE_ANON_KEY || ''
   });
-
 
   useEffect(() => {
     const saved = localStorage.getItem('vocalclone_api_settings');
