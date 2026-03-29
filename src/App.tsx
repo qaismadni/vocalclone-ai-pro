@@ -139,17 +139,25 @@ export default function App() {
                 className={`w-full px-6 py-4 outline-none border-2 transition-all ${isDarkMode ? 'bg-[#1f2937] border-transparent focus:border-blue-500 text-white' : 'bg-gray-50 border-gray-200 focus:border-blue-500 text-gray-900'}`}
               />
             </div>
-            <button 
-              onClick={() => setIsLoggedIn(true)}
+                        <button 
+              onClick={() => {
+                if (email && password) {
+                  setIsLoggedIn(true);
+                } else {
+                  alert("Please enter both Email and Password to login.");
+                }
+              }}
               className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 rounded-3xl transition-all shadow-lg shadow-blue-500/30 active:scale-95 mt-4"
             >
               Enter Pro Studio
             </button>
+
           </div>
           
-          <p className="text-center mt-6 text-sm opacity-50">
-            Don't have an account? <span className="text-blue-500 cursor-pointer hover:underline">Sign up</span>
+                    <p className="text-center mt-6 text-sm opacity-50">
+            Don't have an account? <button onClick={() => alert('Signup functionality coming soon! Please use Enter Pro Studio for now.')} className="text-blue-500 cursor-pointer hover:underline font-bold">Sign up</button>
           </p>
+
         </motion.div>
       </div>
     );
