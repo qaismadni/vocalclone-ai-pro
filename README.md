@@ -1,20 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🚀 VocalClone AI | Pro Studio
+**Professional Voice Cloning & TTS Platform**
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+### 📝 Project Description (English)
+**VocalClone AI | Pro Studio** is a high-fidelity voice cloning and professional Text-to-Speech (TTS) platform. Built with React and TypeScript, it features a sleek 9-page dashboard for seamless audio generation. It uses Supabase for secure authentication and Fal.ai for advanced AI processing.
 
-View your app in AI Studio: https://ai.studio/apps/7044cdd6-7ae2-4263-ad25-4078b8913994
+### 📝 پروجیکٹ کی تفصیل (Urdu)
+**VocalClone AI | Pro Studio** ایک جدید آواز کی کلوننگ اور پیشہ ورانہ ٹیکسٹ ٹو اسپیچ (TTS) پلیٹ فارم ہے۔ یہ 9 صفحات پر مشتمل ایک بہترین ڈیش بورڈ کے ساتھ آتا ہے جسے React اور TypeScript پر بنایا گیا ہے۔ اس میں محفوظ لاگ ان کے لیے Supabase اور طاقتور AI پروسیسنگ کے لیے Fal.ai کا استعمال کیا گیا ہے۔
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+### 👤 Developer Information
+- **Name:** Khalid imran Qais
+- **GitHub:** [@qaismadni](https://github.com/qaismadni)
+- **Email:** imrankkhan696@gmail.com
+- **Role:** Founder & Lead Developer
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 🛠️ Tech Stack
+- **Frontend:** React, Vite, TypeScript, Tailwind CSS
+- **Backend/Auth:** Supabase
+- **AI Engine:** Fal.ai
+- **Deployment:** Vercel
