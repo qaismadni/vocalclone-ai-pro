@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-dark: #050a18;
+  --color-card-dark: #111827;
+  --color-accent: #3b82f6;
+  
+  --color-bg-light: #f3f4f6;
+  --color-card-light: #ffffff;
+  --color-text-light: #1f2937;
+}
+
+@layer base {
+  body {
+    @apply transition-colors duration-300;
+  }
+}
+
+.glass-card {
+  @apply backdrop-blur-md bg-white/10;
+}
+
+.rounded-3xl {
+  border-radius: 24px;
+}
+
+input, textarea, button, .card {
+  border-radius: 24px;
+}
+
+/* Custom scrollbar for a cleaner look */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b82f6;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
